@@ -1,7 +1,7 @@
 {
   "name": "@illgrenoble/ngx-remote-desktop",
   "description": "ngx-remote-desktop is an Angular2+ module for connecting to a remote desktop using the guacamole protocol",
-  "version": "1.4.2",
+  "version": "0.9.0",
   "license": "MIT",
   "main": "release/index.js",
   "typings": "release/index.d.ts",
@@ -32,13 +32,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ILLGrenoble/ngx-remote-desktop.git"
+    "url": "git+https://github.com/drKaramazin/ngx-remote-desktop.git"
   },
-  "author": "ILL <data@ill.fr>",
+  "author": "din.nick@bk.ru",
   "bugs": {
-    "url": "https://github.com/ILLGrenoble/ngx-remote-desktop"
+    "url": "https://github.com/drKaramazin/ngx-remote-desktop"
   },
-  "homepage": "https://github.com/ILLGrenoble/ngx-remote-desktop#readme",
+  "homepage": "https://github.com/drKaramazin/ngx-remote-desktop#readme",
   "keywords": [
     "angularjs",
     "angular",
