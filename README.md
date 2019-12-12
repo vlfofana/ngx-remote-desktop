@@ -5,7 +5,7 @@ This fork has been improved for lazy loading. Big thanks to the Authors (https:/
 # ngx-remote-desktop
 [![npm version](https://badge.fury.io/js/ngx-remote-desktop.svg)](https://badge.fury.io/js/ngx-remote-desktop)
 
-For installation and usage details go [here](https://illgrenoble.github.io/ngx-remote-desktop/additional-documentation/installation.html)
+For installation and usage details go [here](https://github.com/drKaramazin/ngx-remote-desktop/blob/master/additional-doc/installation.md)
 
 `ngx-remote-desktop` is an Angular component for connecting to a remote desktop using the [guacamole remote desktop gateway](https://guacamole.apache.org/)
 
