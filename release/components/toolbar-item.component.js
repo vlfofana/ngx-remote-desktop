@@ -10,7 +10,7 @@ var core_1 = require("@angular/core");
 /**
  * Toolbar item inside the toolbar
  */
-var ToolbarItemComponent = /** @class */ (function () {
+var ToolbarItemComponent = (function () {
     function ToolbarItemComponent() {
     }
     ToolbarItemComponent = __decorate([

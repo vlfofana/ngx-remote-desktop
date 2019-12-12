@@ -20,7 +20,7 @@ var error_message_component_1 = require("./messages/error-message.component");
 /**
  * The main component for displaying a remote desktop
  */
-var RemoteDesktopComponent = /** @class */ (function () {
+var RemoteDesktopComponent = (function () {
     function RemoteDesktopComponent() {
         /**
          * Guacamole has more states than the list below however for the component we are only interested

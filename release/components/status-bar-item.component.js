@@ -10,7 +10,7 @@ var core_1 = require("@angular/core");
 /**
  * Status bar item component
  */
-var StatusBarItemComponent = /** @class */ (function () {
+var StatusBarItemComponent = (function () {
     function StatusBarItemComponent() {
     }
     StatusBarItemComponent = __decorate([

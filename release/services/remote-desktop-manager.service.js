@@ -6,7 +6,7 @@ var rxjs_1 = require("rxjs");
 /**
  * Manages the connection to the remote desktop
  */
-var RemoteDesktopManager = /** @class */ (function () {
+var RemoteDesktopManager = (function () {
     /**
      * Set up the manager
      * @param tunnel  WebsocketTunnel, HTTPTunnel or ChainedTunnel

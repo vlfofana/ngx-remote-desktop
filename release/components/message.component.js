@@ -14,7 +14,7 @@ var core_1 = require("@angular/core");
  * Message component for showing error or success messages for when the connection
  * state changes
  */
-var MessageComponent = /** @class */ (function () {
+var MessageComponent = (function () {
     function MessageComponent() {
         /**
          * Message type. Can be 'success' or 'error'

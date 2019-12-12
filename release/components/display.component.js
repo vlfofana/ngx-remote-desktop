@@ -13,7 +13,7 @@ var core_1 = require("@angular/core");
 var guacamole_common_js_1 = require("@illgrenoble/guacamole-common-js");
 var rxjs_1 = require("rxjs");
 var services_1 = require("../services");
-var DisplayComponent = /** @class */ (function () {
+var DisplayComponent = (function () {
     function DisplayComponent(viewport, renderer) {
         this.viewport = viewport;
         this.renderer = renderer;

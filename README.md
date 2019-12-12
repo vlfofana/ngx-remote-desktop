@@ -1,5 +1,9 @@
+# This is a fork of @illgrenoble/ngx-remote-desktop
+
+This fork has been improved for lazy loading. Big thanks to the Authors (https://www.npmjs.com/package/@illgrenoble/ngx-remote-desktop).
+
 # ngx-remote-desktop
-[![npm version](https://badge.fury.io/js/%40illgrenoble%2Fngx-remote-desktop.svg)](https://badge.fury.io/js/%40illgrenoble%2Fngx-remote-desktop)
+[![npm version](https://badge.fury.io/js/ngx-remote-desktop.svg)](https://badge.fury.io/js/ngx-remote-desktop)
 
 For installation and usage details go [here](https://illgrenoble.github.io/ngx-remote-desktop/additional-documentation/installation.html)
 
@@ -23,14 +27,14 @@ By default, there are no toolbar items, however, you can add as many toolbar ite
   - Send data to the remote clipboard
   - Status bar (optional) to provide contextual information
 
-For a full implementation example, see the [demo source code](https://github.com/ILLGrenoble/ngx-remote-desktop/tree/master/demo)
+For a full implementation example, see the [demo source code](https://github.com/drKaramazin/ngx-remote-desktop/tree/master/demo)
 
 ## Installation
 
 To use `ngx-remote-desktop` in your project, install it via npm:
 
 ```
-npm i @illgrenoble/ngx-remote-desktop --save
+npm i ngx-remote-desktop --save
 ```
 
 We also require two peer dependencies:
