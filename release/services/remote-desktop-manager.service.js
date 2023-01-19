@@ -184,7 +184,7 @@ var RemoteDesktopManager = (function () {
      */
     RemoteDesktopManager.prototype.buildParameters = function (parameters) {
         if (parameters === void 0) { parameters = {}; }
-        var params = new http_1.URLSearchParams();
+        var params = new http_1.HttpParams();
         for (var key in parameters) {
             if (parameters.hasOwnProperty(key)) {
                 params.set(key, parameters[key]);

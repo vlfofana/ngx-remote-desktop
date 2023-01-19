@@ -26,7 +26,7 @@ import { RemoteDesktopManager } from '../services';
     `,
     changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class DisplayComponent implements OnInit, OnDestroy, AfterViewChecked {
+export class DisplayComponent implements AfterViewInit, OnDestroy, AfterViewChecked {
 
     /**
      * Emit the mouse move events to any subscribers
@@ -64,7 +64,7 @@ export class DisplayComponent implements OnInit, OnDestroy, AfterViewChecked {
     /**
      * Create the display canvas when initialising the component
      */
-    ngOnInit(): void {
+    ngAfterViewInit(): void {
         this.createDisplayCanvas();
         this.bindSubscriptions();
     }

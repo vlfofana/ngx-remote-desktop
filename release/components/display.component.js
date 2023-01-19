@@ -29,7 +29,7 @@ var DisplayComponent = (function () {
     /**
      * Create the display canvas when initialising the component
      */
-    DisplayComponent.prototype.ngOnInit = function () {
+    DisplayComponent.prototype.ngAfterViewInit = function () {
         this.createDisplayCanvas();
         this.bindSubscriptions();
     };
